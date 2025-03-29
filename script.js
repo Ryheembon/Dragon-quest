@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Hey there! We're setting up the game elements here. Just grabbing those DOM elements, you know?
     // Game elements
     const storyText = document.getElementById('story-text');
     const choicesContainer = document.getElementById('choices');
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveBtn = document.getElementById('save-btn');
     const loadBtn = document.getElementById('load-btn');
 
+    // Here's the game state. We're keeping track of health, gold, and all that good stuff.
     // Game state
     let gameState = {
         health: 100,
@@ -25,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         playerName: ""
     };
 
+    // Check out these scene images. Got some cool pics to set the vibe.
     // Scene images URLs (using placeholder images)
     const sceneImages = {
         start: 'https://images.unsplash.com/photo-1518709414768-a88981a4515d?q=80&w=1000',
@@ -64,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gameOver: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?q=80&w=1000'
     };
 
+    // Sound effects are in place! Gotta have those clicks and dings.
     // Sound effects
     const sounds = {
         click: new Audio('https://freesound.org/data/previews/522/522640_5356475-lq.mp3'),
@@ -73,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gameOver: new Audio('https://freesound.org/data/previews/321/321102_5648379-lq.mp3')
     };
 
+    // Here's where the magic happens. Each scene's got its own story and choices.
     // Game scenes
     const scenes = {
         start: {
