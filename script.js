@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Game scenes
     const scenes = {
         start: {
-            text: "Welcome to Mystic Quest! You find yourself at a crossroads in the enchanted land of Eldoria. The kingdom has been shrouded in mysterious darkness since the Dragon's Eye gem was stolen from the Temple of Light. Rumors say the thief was a dragon, but others whisper of darker forces at work. Your quest begins here. Which path will you choose?",
+            text: "Welcome to Journey Through Eldoria! You find yourself at a crossroads in the enchanted land of Eldoria. The kingdom has been shrouded in mysterious darkness since the Dragon's Eye gem was stolen from the Temple of Light. Rumors say the thief was a dragon, but others whisper of darker forces at work. Your quest begins here. Which path will you choose?",
             choices: [
                 { text: "Enter the mysterious forest", nextScene: "forest" },
                 { text: "Head towards the village", nextScene: "village" },
