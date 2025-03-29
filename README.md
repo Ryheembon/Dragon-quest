@@ -1,6 +1,6 @@
-# Mystic Quest
+# Journey Through Eldoria
 
-**Mystic Quest** is a chill text-based adventure game where you explore the magical land of Eldoria. You'll make choices, meet cool characters, and see where the story takes you.
+**Journey Through Eldoria** is a chill text-based adventure game where you explore the magical land of Eldoria. You'll make choices, meet cool characters, and see where the story takes you.
 
 ## Features
 
